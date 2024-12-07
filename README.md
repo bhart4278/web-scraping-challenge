@@ -49,5 +49,18 @@ Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.i
     - Visually estimate the result by plotting the daily minimum temperature of each observation.
 6. Export the DataFrame to a CSV file.
 
+## Analysis Results
+### Minimum Temperature
+
+The average minimum temperatures on Mars show clear seasonal variation at Curiosity's location. The coldest months are Month 3 (-83.3°C) and Month 4 (-82.8°C), likely during the Martian winter. The warmest months are Month 8 (-68.4°C) and Month 9 (-69.2°C), corresponding to the Martian summer. The difference between the warmest and coldest months is 15.1°C, highlighting the seasonal extremes caused by Mars' axial tilt and thin atmosphere. These patterns reflect the planet's distinct seasonal climate cycles.
+
+### Atmospheric Pressure
+
+The atmospheric pressure on Mars shows a clear seasonal cycle driven by the sublimation and deposition of CO₂ at the polar ice caps. The highest pressure occurs in Month 9 (913.31 Pa), likely during the Martian winter in the southern hemisphere when CO₂ sublimates back into the atmosphere. The lowest pressure is in Month 6 (745.05 Pa), likely during the Martian summer in the southern hemisphere when CO₂ freezes onto the polar ice caps. This creates a pressure range of about 168 Pa throughout the year. These variations reflect the influence of Mars' axial tilt and its thin, CO₂-dominated atmosphere.
+
+### Year Length
+
+The length of a Martian year can be estimated by measuring the distance between two valleys in the "Minimum Temperature over Time" graph. The first valley occurs around 550 terrestrial days, and the second valley around 1230 days, giving a difference of approximately 680 days. This aligns closely with the known length of a Martian year, which is 668 sols or about 687 terrestrial days (with one sol being approximately 1.027 Earth days). This estimation reflects the seasonal temperature cycle driven by Mars' orbit around the Sun.
+
 ## Reference Note:
 I utilized the bootcamp's built in AI chatbot "Xpert Learning Assistant" and ChatGPT to help guide in both structure and syntax of my code.
